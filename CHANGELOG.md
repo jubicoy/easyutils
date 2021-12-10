@@ -6,6 +6,10 @@ and this project adheres poorly to [Semantic Versioning](https://semver.org/spec
 
 ## [Unreleased]
 
+## [0.1.1] - 2021-12-10
+### Added
+- Full Java 17 support.
+
 ## [0.1.0] - 2020-05-27
 
 Initial release.
