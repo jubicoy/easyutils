@@ -6,6 +6,14 @@ and this project adheres poorly to [Semantic Versioning](https://semver.org/spec
 
 ## [Unreleased]
 
+## [0.1.2] - 2023-03-09
+### Changed
+- Drop Java 8 support.
+- Clean up dependencies.
+
+### Security
+- Update parent.
+
 ## [0.1.1] - 2021-12-10
 ### Added
 - Full Java 17 support.
