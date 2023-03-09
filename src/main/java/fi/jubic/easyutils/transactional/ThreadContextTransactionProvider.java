@@ -1,6 +1,9 @@
 package fi.jubic.easyutils.transactional;
 
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+
 import java.util.function.Function;
+
 
 /**
  * A {@link TransactionProvider} for thread context based implementations. A void transaction
@@ -10,6 +13,7 @@ import java.util.function.Function;
  * {@link ThreadContextTransactionProvider#rollback()} methods are called to manage the transaction
  * scope.
  */
+@SuppressFBWarnings("THROWS_METHOD_THROWS_RUNTIMEEXCEPTION")
 public interface ThreadContextTransactionProvider extends TransactionProvider<Void> {
     /**
      * Begin a thread context bound transaction.
