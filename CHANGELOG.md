@@ -6,6 +6,10 @@ and this project adheres poorly to [Semantic Versioning](https://semver.org/spec
 
 ## [Unreleased]
 
+## [0.1.4] - 2024-05-06
+### Changed
+- Bump fi.jubic:easyparent from 0.1.11 to 0.1.12.
+
 ## [0.1.3] - 2023-12-13
 ### Added
 - Java 21 tests.
